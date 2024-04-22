@@ -50,6 +50,11 @@ body {
 
   .basic-nav ul li {
     background-color: black;
+    padding: 1rem;
+  }
+
+  .basic-nav ul li a {
+    text-decoration: none;
     color: white;
     padding: 1rem;
   }
