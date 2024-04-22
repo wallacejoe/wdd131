@@ -39,7 +39,7 @@ body {
     padding: 1rem;
   }
   
-  .basic-nav ul {
+  nav ul {
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -48,12 +48,12 @@ body {
     padding: 0;
   }
 
-  .basic-nav ul li {
+  nav ul li {
     background-color: black;
     padding: 1rem;
   }
 
-  .basic-nav ul li a {
+  nav ul li a {
     text-decoration: none;
     color: white;
     padding: 1rem;
