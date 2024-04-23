@@ -49,6 +49,7 @@ body {
   }
 
   nav ul li {
+    /*flex: 1 1 auto;*/
     background-color: black;
     padding: 1rem;
   }

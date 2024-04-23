@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap");
+
+h1,
+h2 {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+p,
+a {
+  font-family: Merriweather, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: 10rem auto 10rem / auto;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: #69995D;
+}
+
+header h1 {
+  text-align: center;
+  padding: 4rem 2rem 0 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column: 1 / 2;
+  padding: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 0;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card ul li {
+    margin: 1rem;
+    text-align: center;
+}
+
+.card ul li a {
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #69995D;
+    color: black;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.card ul li a:hover {
+    background-color: darkgrey;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: auto 10rem;
+    margin: 2rem;
+}
+
+.bio img {
+    width: 100%;
+}
+
+.bio p {
+    line-height: 2rem;
+}
+
+hr {
+    width: 80%;
+}
+
+.residence {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.residence p {
+    line-height: 2rem;
+}
+
+footer {
+  background: #69995D;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  flex: 1 1 auto;
+  display: flex;
+  background-color: black;
+  padding: 0;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+}
+
+nav ul li a:hover {
+  background-color: darkgrey;
+  color: black;
+}
