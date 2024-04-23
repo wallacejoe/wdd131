@@ -33,7 +33,9 @@ main {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column: 1 / 2;
-  padding: 2rem;
+  padding: 2rem 0;
+  margin-left: 5%;
+  max-width: 90%;
 }
 
 .card {
@@ -109,7 +111,12 @@ hr {
 }
 
 .residence p {
+    margin-left: 1rem;
     line-height: 2rem;
+}
+
+.residence img {
+    width: 30%;
 }
 
 footer {
